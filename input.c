@@ -15,10 +15,10 @@ char *read_input_line(size_t *len, ssize_t *read)
 
 	if (*read == -1)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	line[strcspn(line, "\n")] = '\0';
-	return line;
+	return (line);
 }
 
