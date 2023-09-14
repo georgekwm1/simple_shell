@@ -18,7 +18,7 @@ int main(void)
 	{
 
 		line = read_input_line(&len, &read);
-		_exit_status(line);
+
 		if (line == NULL || strcmp(line, "exit") == 0)
 		{
 			free(line);

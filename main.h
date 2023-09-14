@@ -20,7 +20,6 @@ void execute_command(char *args[]);
 char **executor_2(char **envir_paths);
 char* _strtok(char *str, const char *del);
 char *_getenv(const char *name);
-void _exit_status(char *line);
 ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 void change_dir(char *line);
 
