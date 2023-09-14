@@ -30,6 +30,7 @@ char *_getenv(const char *name)
 			{
 
 				return current_env_var + i + 1;
+
 			}
 		}
 
@@ -38,4 +39,3 @@ char *_getenv(const char *name)
 
 	return NULL;
 }
-
